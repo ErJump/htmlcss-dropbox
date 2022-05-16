@@ -291,7 +291,37 @@ header ul{
 
 .margin-fix{
     margin-top: 50px;
+    border: none;
 }
+
+/* features  */
+
+.features-container{
+    width: 50%;
+    margin: 200px auto;
+}
+
+.features-container img{
+    width: 100%;
+}
+
+.features-container>h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.features-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.features-flex div div h3{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+
 
 /* Test modifica scroll-bar  */
 

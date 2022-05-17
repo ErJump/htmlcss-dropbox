@@ -507,6 +507,56 @@ header ul{
     border-bottom: 1px solid #666666;
 }
 
+/* Footer  */
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.footer-container{
+    width: 60%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: space-between;    
+    margin-bottom: 40px;
+}
+
+.footer-flex h3{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.footer-flex a{
+    color: white;
+    text-decoration: none; 
+}
+
+.footer-flex a:hover{
+    text-decoration: underline; 
+}
+
+.footer-flex li{
+    margin-bottom: 20px;
+}
+
+.footer-flex ul{
+    list-style: none;
+}
+
+.language{
+    color: #666666;
+    padding: 40px 0;
+    font-size: 18px;
+}
+
+.language span{
+    margin-left: 5px;
+}
 /* Test modifica scroll-bar  */
 
 body::-webkit-scrollbar {

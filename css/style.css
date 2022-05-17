@@ -557,7 +557,29 @@ footer{
 .language span{
     margin-left: 5px;
 }
-/* Test modifica scroll-bar  */
+
+/* hover buttons */
+
+.blue-button{
+    transition: .5s;
+}
+
+.blue-button:hover{
+    background-color: #5492f7;
+    cursor: pointer;
+}
+
+.white-button{
+    transition: .5s;
+}
+
+.white-button:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+
+/* Test scroll-bar  */
 
 body::-webkit-scrollbar {
     width: 12px;               

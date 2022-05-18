@@ -55,9 +55,10 @@ header img{
     margin-right: 20px;
 }
 
-header li:hover{
+.b-black-bot:hover{
     border-bottom: 3px solid black;
 }
+
 
 .menu li a{
     text-decoration: none;
@@ -80,7 +81,45 @@ header ul{
     display: inline-block;
 }
 
-/* main */
+/* dropdown */
+
+.drop-button:hover .dropdown-content{
+    display: flex;
+}
+
+.drop-button:hover{
+    background-color: #f3f3f3;
+}
+
+.drop-button{
+    position: relative;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    top: 105px;
+    background-color: #f3f3f3;
+    min-width: 250px;
+    z-index: 1;
+    flex-direction: column;
+    margin-left: -10px;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a div{
+    padding-left: 20px;
+}
+
+.dropdown-content a:hover{
+    background-color: #ddd;
+}
 
 /* jumbo */
 
@@ -391,7 +430,7 @@ header ul{
 
 .square>img{
     width: 100%;
-    filter: invert(100%) sepia(5%) saturate(2%) hue-rotate(356deg) brightness(104%) contrast(100%);;
+    filter: invert(100%) sepia(5%) saturate(2%) hue-rotate(356deg) brightness(104%) contrast(100%);
     position: absolute;
 	top: 50%;
 	left: 50%;
@@ -578,6 +617,8 @@ footer{
     cursor: pointer;
     color: white;
 }
+
+/* login */
 
 /* Test scroll-bar  */
 
